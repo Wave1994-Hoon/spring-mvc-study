@@ -18,6 +18,7 @@ public class FrontControllerServletV1 extends HttpServlet {
 
     private Map<String, ControllerV1> controllerMap = new HashMap<>();
 
+    /* HashMap에 Key 값으로 저장 후 해당 경로가 호출 되면 value 에 저장된 객체 호출 */
     public FrontControllerServletV1() {
         controllerMap.put("/front-controller/v1/members/new-form", new MemberFormControllerV1());
         controllerMap.put("/front-controller/v1/members/save", new MemberSaveControllerV1());

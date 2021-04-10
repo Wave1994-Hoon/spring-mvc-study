@@ -14,7 +14,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-@WebServlet(name = "frontControllerServletV3", urlPatterns = "/front-controller/V3/*")  // V3 하위에 들어오는 요청은 무조건 호
+@WebServlet(name = "frontControllerServletV3", urlPatterns = "/front-controller/V3/*")  // V3 하위에 들어오는 요청은 무조건 호출 
 public class FrontControllerServletV3 extends HttpServlet {
 
     private Map<String, ControllerV3> controllerMap = new HashMap<>();

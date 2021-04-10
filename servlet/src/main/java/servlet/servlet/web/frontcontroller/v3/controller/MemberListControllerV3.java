@@ -2,7 +2,7 @@ package servlet.servlet.web.frontcontroller.v3.controller;
 
 import servlet.servlet.domain.member.Member;
 import servlet.servlet.domain.member.MemberRepository;
-import servlet.servlet.web.frontcontroller.v2.ModelView;
+import servlet.servlet.web.frontcontroller.v3.ModelView;
 import servlet.servlet.web.frontcontroller.v3.ControllerV3;
 
 import java.util.List;
